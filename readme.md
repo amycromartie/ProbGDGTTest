@@ -73,7 +73,7 @@ python ProbGDGT_main_script.py
 
 ___
 
-Output
+## Output
 The program will generate:
 A CSV file containing probability estimates for each sedimentary environment (lake, peat, soil)
 Corresponding confidence intervals
@@ -81,7 +81,7 @@ PDF graphs illustrating the results
 All outputs will be saved in your specified OUTPUT_DIR.
 
 ___
-Citations
+## Citations
 If you utilize this program, please cite:
 
 Cromartie, A., De Jonge, C., Ménot, G., Robles, M., Dugerdil, L., Peyron, O., Rodrigo-Gámiz, M., Camuera, J., Ramos-Roman, M. J., Jiménez-Moreno, G., Colombié, C., Sahakyan, L., & Joannin, S. (2025).
@@ -92,10 +92,12 @@ Robles, M., Peyron, O., Brugiapaglia, E., Ménot, G., Dugerdil, L., Ollivier, V.
 Impact of climate changes on vegetation and human societies during the Holocene in the South Caucasus (Vanevan, Armenia): A multiproxy approach including pollen, NPPs and brGDGTs.  Quaternary Science Reviews, 277.  https://doi.org/10.1016/j.quascirev.2021.107297
 
 
-‍ Authors
+## ‍ Authors
 Lead Author: A. Cromartie
 Collaborators: C. De Jonge, G. Ménot, M. Robles, L. Dugerdil, O. Peyron, and co-authors
 For questions, suggestions, or bug reports, please open an issue on GitHub or contact the authors.
-License
+
+
+### License
 This project is distributed under the MIT License unless otherwise specified.`
 
