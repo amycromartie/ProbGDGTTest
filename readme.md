@@ -44,18 +44,34 @@ CORES_FILE = "Roblesetal2022_ExampleCore_Vanevan.csv"
 # Output directory for results (can be the same or a separate folder)
 OUTPUT_DIR = r"C:\Users\Username\Documents\Ggdtarticle\ProbGDGTs\Output"
 
+```
+
+---
+
 # Adjusting Bootstraps
 You can modify the number of bootstraps used for confidence interval estimation.
 Start with a low number (e.g., 10) during configuration to save CPU time, and increase it once the script is working correctly.
 
+```python
+
 # Keep the bootstrap low when testing to save CPU cycles. Increase once ready
 n_bootstraps = 10
+
+```
+
+---
 
 Make sure your core file is formatted similarly to the example
 
 Once dependencies are installed and paths are configured, run the script:
 
+```python
+
 python ProbGDGT_main_script.py
+
+```
+
+___
 
 Output
 The program will generate:
@@ -64,6 +80,7 @@ Corresponding confidence intervals
 PDF graphs illustrating the results
 All outputs will be saved in your specified OUTPUT_DIR.
 
+___
 Citations
 If you utilize this program, please cite:
 
